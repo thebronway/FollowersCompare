@@ -37,10 +37,12 @@ const MainLayout = ({ children }) => {
       {/* Navbar */}
       <header className="border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-            <div className="bg-indigo-600 p-1.5 rounded-lg">
-              <ShieldCheck className="text-white w-5 h-5" />
-            </div>
+          <Link to="/" className="flex items-center space-x-2.5 hover:opacity-80 transition-opacity">
+            <img 
+              src="/logo.webp" 
+              alt="FollowersCompare Logo" 
+              className="h-16 w-auto" 
+            />
             <span className="font-bold text-lg tracking-tight">FollowersCompare</span>
           </Link>
           

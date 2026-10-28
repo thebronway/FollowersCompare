@@ -1,12 +1,15 @@
 # FollowersCompare Changelog
 
-*Last updated: 2026-06-17*  
-*Current Version: v0.3.0*
+*Last updated: 2026-10-28*  
+*Current Version: v0.3.5*
 
 ## Overview
 This document tracks past changes starting with v0.2.5
 
 ## Changelog
+
+### Release v0.3.5:
+- New Logo
 
 ### Release v0.3.0:
 - Create /blog and acticles
